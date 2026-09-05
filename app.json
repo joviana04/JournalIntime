@@ -15,10 +15,17 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.ange00004.JournalIntime"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "54.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "afb1e7f9-0e0d-476e-96fe-0d68e080b671"
+      }
     }
   }
 }
