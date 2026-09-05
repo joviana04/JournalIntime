@@ -6,7 +6,7 @@ import { AuthContext } from '../outils/authContext'
 export default function Settings() {
   const { user, logout } = useContext(AuthContext)
 
-  // Rekipere non an oswa pran pati anvan '@' nan imèl la
+  // Rekipere non an oswa pran pati anvan '@' nan imel la
   const displayName = user?.username || user?.email?.split('@')[0] || 'Utilisateur'
 
   const handleLogout = () => {
